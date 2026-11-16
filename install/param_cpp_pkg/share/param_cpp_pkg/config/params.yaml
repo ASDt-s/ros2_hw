@@ -1,0 +1,7 @@
+/cpp_param_node:
+  ros__parameters:
+    use_sim_time: true
+    frames.odom: odom
+    frames.baselink: base_link
+    frames.lidar: lidar
+    frames.imu: imu

@@ -1,0 +1,49 @@
+[0.297s] Invoking command in '/home/sc/ros2_ws/src/drone_tracker': PYTHONPATH=/home/sc/ros2_ws/build/drone_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_tracker build --build-base /home/sc/ros2_ws/build/drone_tracker/build install --record /home/sc/ros2_ws/build/drone_tracker/install.log --install-scripts $base/lib/drone_tracker --single-version-externally-managed install_data
+[0.415s] running egg_info
+[0.415s] creating ../../build/drone_tracker/drone_tracker.egg-info
+[0.415s] writing ../../build/drone_tracker/drone_tracker.egg-info/PKG-INFO
+[0.415s] writing dependency_links to ../../build/drone_tracker/drone_tracker.egg-info/dependency_links.txt
+[0.415s] writing entry points to ../../build/drone_tracker/drone_tracker.egg-info/entry_points.txt
+[0.415s] writing requirements to ../../build/drone_tracker/drone_tracker.egg-info/requires.txt
+[0.415s] writing top-level names to ../../build/drone_tracker/drone_tracker.egg-info/top_level.txt
+[0.415s] writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+[0.416s] reading manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+[0.416s] writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+[0.416s] running build
+[0.416s] running build_py
+[0.416s] creating /home/sc/ros2_ws/build/drone_tracker/build
+[0.416s] creating /home/sc/ros2_ws/build/drone_tracker/build/lib
+[0.417s] creating /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+[0.417s] copying drone_tracker/flight_control.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+[0.417s] copying drone_tracker/gimbal_controller.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+[0.417s] copying drone_tracker/state_estimator.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+[0.417s] copying drone_tracker/vision_node.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+[0.417s] copying drone_tracker/__init__.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+[0.417s] running install
+[0.417s] running install_lib
+[0.417s] creating /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+[0.417s] copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/flight_control.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+[0.417s] copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/gimbal_controller.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+[0.417s] copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/state_estimator.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+[0.417s] copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/vision_node.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+[0.417s] copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/__init__.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+[0.417s] byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/flight_control.py to flight_control.cpython-310.pyc
+[0.417s] byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/gimbal_controller.py to gimbal_controller.cpython-310.pyc
+[0.418s] byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/state_estimator.py to state_estimator.cpython-310.pyc
+[0.418s] byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/vision_node.py to vision_node.cpython-310.pyc
+[0.418s] byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/__init__.py to __init__.cpython-310.pyc
+[0.418s] running install_data
+[0.419s] creating /home/sc/ros2_ws/install/drone_tracker/share/ament_index
+[0.419s] creating /home/sc/ros2_ws/install/drone_tracker/share/ament_index/resource_index
+[0.419s] creating /home/sc/ros2_ws/install/drone_tracker/share/ament_index/resource_index/packages
+[0.419s] copying resource/drone_tracker -> /home/sc/ros2_ws/install/drone_tracker/share/ament_index/resource_index/packages
+[0.419s] copying package.xml -> /home/sc/ros2_ws/install/drone_tracker/share/drone_tracker
+[0.419s] running install_egg_info
+[0.419s] Copying ../../build/drone_tracker/drone_tracker.egg-info to /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker-0.0.0-py3.10.egg-info
+[0.420s] running install_scripts
+[0.430s] Installing flight_control script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+[0.430s] Installing gimbal_controller script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+[0.430s] Installing state_estimator script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+[0.430s] Installing vision_node script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+[0.430s] writing list of installed files to '/home/sc/ros2_ws/build/drone_tracker/install.log'
+[0.443s] Invoked command in '/home/sc/ros2_ws/src/drone_tracker' returned '0': PYTHONPATH=/home/sc/ros2_ws/build/drone_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_tracker build --build-base /home/sc/ros2_ws/build/drone_tracker/build install --record /home/sc/ros2_ws/build/drone_tracker/install.log --install-scripts $base/lib/drone_tracker --single-version-externally-managed install_data

@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/drone_tracker/drone_tracker.egg-info
+writing ../../build/drone_tracker/drone_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_tracker/drone_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_tracker/drone_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/drone_tracker/drone_tracker.egg-info/requires.txt
+writing top-level names to ../../build/drone_tracker/drone_tracker.egg-info/top_level.txt
+writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+reading manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sc/ros2_ws/build/drone_tracker/build
+creating /home/sc/ros2_ws/build/drone_tracker/build/lib
+creating /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+copying drone_tracker/flight_control.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+copying drone_tracker/gimbal_controller.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+copying drone_tracker/state_estimator.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+copying drone_tracker/vision_node.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+copying drone_tracker/__init__.py -> /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker
+running install
+running install_lib
+creating /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/flight_control.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/gimbal_controller.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/state_estimator.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/vision_node.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+copying /home/sc/ros2_ws/build/drone_tracker/build/lib/drone_tracker/__init__.py -> /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker
+byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/flight_control.py to flight_control.cpython-310.pyc
+byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/gimbal_controller.py to gimbal_controller.cpython-310.pyc
+byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/state_estimator.py to state_estimator.cpython-310.pyc
+byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/vision_node.py to vision_node.cpython-310.pyc
+byte-compiling /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sc/ros2_ws/install/drone_tracker/share/ament_index
+creating /home/sc/ros2_ws/install/drone_tracker/share/ament_index/resource_index
+creating /home/sc/ros2_ws/install/drone_tracker/share/ament_index/resource_index/packages
+copying resource/drone_tracker -> /home/sc/ros2_ws/install/drone_tracker/share/ament_index/resource_index/packages
+copying package.xml -> /home/sc/ros2_ws/install/drone_tracker/share/drone_tracker
+running install_egg_info
+Copying ../../build/drone_tracker/drone_tracker.egg-info to /home/sc/ros2_ws/install/drone_tracker/lib/python3.10/site-packages/drone_tracker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing flight_control script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+Installing gimbal_controller script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+Installing state_estimator script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+Installing vision_node script to /home/sc/ros2_ws/install/drone_tracker/lib/drone_tracker
+writing list of installed files to '/home/sc/ros2_ws/build/drone_tracker/install.log'

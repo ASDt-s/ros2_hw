@@ -1,0 +1,6 @@
+[console_scripts]
+flight_control = drone_tracker.flight_control:main
+gimbal_controller = drone_tracker.gimbal_controller:main
+state_estimator = drone_tracker.state_estimator:main
+vision_node = drone_tracker.vision_node:main
+

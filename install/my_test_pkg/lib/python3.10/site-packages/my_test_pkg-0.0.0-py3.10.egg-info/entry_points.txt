@@ -1,0 +1,5 @@
+[console_scripts]
+hello_node = my_test_pkg.hello_node:main
+listener = my_test_pkg.listener:main
+talker = my_test_pkg.talker:main
+
